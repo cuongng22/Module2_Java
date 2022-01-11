@@ -1,4 +1,4 @@
-package Practice.FindMaxInArray;
+package Practice.Find;
 
 import java.util.Scanner;
 
