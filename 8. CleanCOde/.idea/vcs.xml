@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/apj-calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Exercise/apj-tennis-game" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/Practice/TH1/apj-calculator" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/Practice/TH2/apj-fizzbuzz" vcs="Git" />
   </component>
