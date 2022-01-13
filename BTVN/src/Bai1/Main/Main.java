@@ -24,8 +24,10 @@ public class Main {
             switch (choice) {
                 case 1:
                     menuHuman();
+                    break;
                 case 2:
                     menuHotel();
+                    break;
             }
         } while (choice != 0);
     }
@@ -44,16 +46,19 @@ public class Main {
             switch (choice1) {
                 case 1:
                     humanManager.creatHuman();
+                    break;
                 case 2:
+                    scanner.nextLine();
                     System.out.println("Nhập vào cmnd của ng muốn xoá: ");
                     String id = scanner.nextLine();
                     humanManager.deleteHuman(id);
+                    break;
                 case 3:
                     System.out.println("Nhập vào cmnd: ");
                     String id1 = scanner.nextLine();
-                    humanManager.deleteHuman(id1);
+                    humanManager.deleteHuman(id1);break;
                 case 4:
-                    humanManager.displayAll();
+                    humanManager.displayAll();break;
             }
         } while (choice1 != 0);
     }
@@ -72,6 +77,7 @@ public class Main {
 
             switch (choice2) {
                 case 1:
+                    scanner.nextLine();
                     System.out.println("Nhập vào cmnd của khách muốn thuê: ");
                     String cmt2 = scanner.nextLine();
                     Human human = humanManager.getHuman(cmt2);
