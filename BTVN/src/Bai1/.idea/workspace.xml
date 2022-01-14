@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9468fb33-4adf-482d-9d66-c3a5f591695d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Bai3/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bai3/manager/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bai3/model/CardBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bai3/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bai4/manager/CityManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bai4/manager/HumanManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bai4/model/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bai4/model/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../9. Automated Testing &amp; TDD/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../9. Automated Testing &amp; TDD/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../9. Automated Testing &amp; TDD/9. Automated Testing &amp; TDD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../9. Automated Testing &amp; TDD/9. Automated Testing &amp; TDD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../9. Automated Testing &amp; TDD/out/production/9. Automated Testing &amp; TDD/Practice/TH1/apj-junit-calculator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../9. Automated Testing &amp; TDD/src/Practice/TH1/apj-junit-calculator" beforeDir="false" afterPath="$PROJECT_DIR$/../../../9. Automated Testing &amp; TDD/src/Practice/TH1/apj-junit-calculator" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23fayRVkUVJqlUgO7OoqtN6Z4p0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9468fb33-4adf-482d-9d66-c3a5f591695d" name="Changes" comment="" />
+      <created>1642127848568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642127848568</updated>
+      <workItem from="1642127850005" duration="46000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
