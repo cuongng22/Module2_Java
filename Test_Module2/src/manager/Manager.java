@@ -39,7 +39,7 @@ public class Manager {
             phoneNumber = scanner.nextLine();
             checkPhoneNumber = RegexPhoneNumber.validate(phoneNumber);
         }while (!checkPhoneNumber);
-//        String phone = checkPhone(phoneNumber);
+        String phone = checkPhone(phoneNumber);
         boolean checkEmail;
         String email;
         do {
@@ -51,9 +51,19 @@ public class Manager {
         String gr = scanner.nextLine();
         System.out.println("Nhập ngày sinh(dd/mm/yyyy): (Lưu ý ngày tháng sinh nhập đủ 2 chữ số)");
         LocalDate date = LocalDate.parse(scanner.nextLine(), DateTimeFormatter.ofPattern("dd/MM/yyyy"));
-        phoneBooks.add(new PhoneBook(name, gender, address, phoneNumber, email, gr, date));
+        phoneBooks.add(new PhoneBook(name, gender, address, phone, email, gr, date));
         csv.writeFile(phoneBooks, PATH_NAME);
         System.out.println("Thêm sđt "+phoneNumber+" thành công!");
+    }
+
+    public String checkPhone(String a) {
+        for (PhoneBook p : phoneBooks) {
+            while (p.getPhoneNumber().equals(a)) {
+                System.out.println("sđt đã tồn tại, vui lòng nhập lại!");
+                a = scanner.nextLine();
+            }
+        }
+        return a;
     }
 
     public String getGender() {
